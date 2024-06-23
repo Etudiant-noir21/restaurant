@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   list-style: none;
+   text-decoration: none;
+}
+span{
+    color: #ffa500;
+}
+body{
+    max-width: 1300px;
+    font-family:  Arial, sans-serif;
+
+    
+}
+header{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; background: fixed;
+    background-color: #eee6ca;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+header ul a{
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+}
+header ul a:hover{
+    color: #ffa500;
+}
+      /* <<<<<<<<<<<<<<< la partie section >>>>>>> */
+      section .first{
+        padding: 30px 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+      .first .left-side{
+        width: 50%;
+        line-height: 2rem;
+      }
+      .left-side p{
+        line-height: normal;
+        margin-top: 10px;
+      }
+      .liens a{
+        color: aliceblue;
+        padding: 1rem ;
+        line-height: 5rem;
+        border-radius: 50px;
+        background: linear-gradient(#f44f3f,#fd930e);
+        flex-shrink: 1;
+      }
+      img{
+        max-height: 505.6px;
+        max-width: 100%;
+      }
+      .second{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #fef3ec;
+      }
+      .second .right{
+        width: 50%;
+      }
+      .thrird .partie-1{
+        padding: 30px 20px;
+        text-align: center;
+      }
+      .partie-1 p{
+        color: #808080;
+        text-align: center;
+      }
+      .menu{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+        padding: 60px 30px;
+        gap: 2rem;
+      }
+      .image{
+        padding: 5%;
+        border-radius: 5%;
+        border: 5px solid white;
+        background-color: #ffffff;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+      }
+      .image p{
+        color: #808080;
+        padding-top: 0.5rem;
+      }
+      .image img{
+        width: 100%;
+      }
+      .fourth{
+        padding: 30px 20px;
+      }
+      .fourth .socil-folowers{
+        display: flex;
+        justify-content: space-between;
+        padding: 3%;
+        background-color: #ffffff;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.1);
+      }
+      .socil-folowers p{
+        color: #808080;
+      }
+      .fivth{
+        padding: 20px 0;
+      }
+      .plat{
+        padding: 5%;
+        border: 2px solid;
+        border-radius: 5%;
+      }
+      .foods h2{
+        text-align: center;
+      }
+     .fivth .the-foods{
+        padding: 10px 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+        gap: 1rem;
+      }
+      
+      .details p{
+        color: #808080;
+      }
+      .details button{
+        padding: 10px;
+        border-radius:50px;
+        background: linear-gradient( #fc920e,#f5543c);
+        color: #ffffff;
+        border: none;
+      }
+      .details button:hover{
+        background:linear-gradient(#f5543c,#fc920e) ;
+      }
+      footer{
+        text-align: center;
+        color: #ffffff;
+        background-color: #000;
+        padding: 5rem;
+        line-height: 2rem;
+        font-size: 20px;
+      }
+      @media screen and (max-width:1024px){
+          header{
+            width: 100%;
+          }
+          header ul{
+            gap: 5px;
+            width: 100%;
+          }
+          section .first{
+            padding: 20px 0;
+            flex-direction: column;
+            margin: 0%;
+          }
+        .first  .left-side{
+            width: 100%;
+            padding: 10px;
+            /* flex-direction: column; */
+          }
+          .second{
+            width: 100%;
+            flex-direction: column-reverse;
+          }
+          .second .right{
+            width: 100%;
+            padding: 20px;
+          }
+      }
