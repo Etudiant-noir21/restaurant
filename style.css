@@ -41,7 +41,7 @@ header ul a:hover{
 }
       /* <<<<<<<<<<<<<<< la partie section >>>>>>> */
       section .first{
-        padding: 30px 80px;
+        padding: 80px 80px;
         display: flex;
         justify-content: space-between;
         align-items: center;
