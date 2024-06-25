@@ -20,9 +20,6 @@ header{
     justify-content: space-between;
     align-items: center; background-attachment: fixed;
     background-color: #eee6ca;
-    position: fixed;
-    width: 100%;
-    opacity: 0.80;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header ul{
