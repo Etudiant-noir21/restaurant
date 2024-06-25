@@ -18,14 +18,18 @@ header{
     padding: 20px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center; background: fixed;
+    align-items: center; background-attachment: fixed;
     background-color: #eee6ca;
+    position: fixed;
+    width: 100%;
+    opacity: 0.80;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header ul{
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: flex-end;
     
 }
 header ul a{
@@ -38,7 +42,7 @@ header ul a:hover{
 }
       /* <<<<<<<<<<<<<<< la partie section >>>>>>> */
       section .first{
-        padding: 30px 80px;
+        padding: 80px 80px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -157,16 +161,24 @@ header ul a:hover{
           header{
             width: 100%;
           }
+          header h3{
+            width: 20%;
+          }
           header ul{
             gap: 5px;
             width: 100%;
+          }
+          header ul li {
+            font-size: 12px;
           }
           section .first{
             padding: 20px 0;
             flex-direction: column;
             margin: 0%;
+            /* margin-top: 5rem; */
           }
         .first  .left-side{
+          margin: 5rem 0;
             width: 100%;
             padding: 10px;
             /* flex-direction: column; */
